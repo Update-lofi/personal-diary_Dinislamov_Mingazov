@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Новая запись</h2>
+
+<form action="/add" method="POST">
+    <div>
+        <label>Заголовок:</label>
+        <input type="text" name="title" required>
+    </div>
+    <div>
+        <label>Текст:</label>
+        <textarea name="content" rows="10" required></textarea>
+    </div>
+    <button type="submit">Сохранить</button>
+    <a href="/">Отмена</a>
+</form>
+{% endblock %}
