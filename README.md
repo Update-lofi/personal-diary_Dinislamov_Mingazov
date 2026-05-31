@@ -1,1 +1,15 @@
 # LR1-2_personal-diary_Dinislamov_Mingazov
+
+# Личный дневник
+
+Веб-приложение для ведения личного дневника на Flask.
+
+## Технологии
+- Python
+- Flask
+- JSON (хранение данных)
+
+## Запуск
+```bash
+pip install flask
+python app.py
